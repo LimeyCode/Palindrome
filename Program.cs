@@ -5,7 +5,7 @@ namespace Human_Computer_Interaction_Program
     class Program
     {
         /// <summary>
-        /// This algorithm checks to see if a word inputted by the user is a Palidrome.
+        /// This algorithm checks to see if a word inputted by the user is a Palindrome.
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
@@ -13,7 +13,7 @@ namespace Human_Computer_Interaction_Program
             //The Variables Operate as followed:
             //String x holds is the user's word
             string x;
-            //Boolean f tells if the program if the word is a Palidrome
+            //Boolean f tells if the program if the word is a Palindrome
             bool f;
             //Integer a is the start pointer for the word
             int a;
@@ -36,7 +36,7 @@ namespace Human_Computer_Interaction_Program
                 f = true;
                 while (f == true && a < z)
                 {
-                    //Special characters and spaces don't contribute towards the word being a paildrome and so get skipped
+                    //Special characters and spaces don't contribute towards the word being a palindrome and so get skipped
                     while (x[a] == ' ' || x[a] == ',' || x[a] == ';' || x[a] == '!' || x[a] == '?' || x[a] == '.')
                     {
                         a++;
